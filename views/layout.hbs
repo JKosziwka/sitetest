@@ -1,0 +1,95 @@
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/557e44bc05.js" crossorigin="anonymous"></script>
+</head>
+<header>
+  <nav class="navigation">
+    <img src="stylesheets/logo2.png" alt="logo2" class="logo2">
+    <img src="stylesheets/logo.png" alt="logo" class="logo">
+    <div class="dropdown-icon"><i class="fa fa-bars"></i></div>
+    <ul id="list" class="active">
+      <li><a href="/">home</a></li>
+      <li><a href="/about">about us</a></li>
+      <li><a href="/development">development</a></li>
+    <!--<div class="dropdown">
+    <button class="dropbtn">Teams
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>-->
+      <li><a href="/chip">chip's program</a></li>
+      <li><a href="/teams">teams</a></li>
+      <li><a href="/faq">FAQ</a></li>
+      <li><a href="/contact">contact</a></li>
+
+    </ul>
+  </nav>
+</header>
+
+<body>
+<section class="main-container">
+  {{{ body }}}
+</section>
+</body>
+
+
+<section class="footer">
+  <div class="col-5">
+    <h1>Stay Informed</h1>
+     <form
+  action="https://formspree.io/mjvwkwoy"
+  method="POST" class="sform">
+
+    <input type="text" name="_replyto" id="email-box" placeholder="Your Email">
+
+  <!-- your other form fields go here -->
+
+  <button type="submit" class="form-button">Subscribe</button>
+</form>
+  </div>
+  <div class="col-5">
+    <h1>get in touch</h1>
+    <p><span>Address:</span>123 123 123</p>
+    <p><span>Main Phone:</span> 727-756-5656</p>
+    <p><span>Email:</span> 123@gmail.com</p>
+  </div>
+  <div class="col-5">
+    <h1>social media</h1>
+    <p>asdfasdf asdf asdf asdf asdf asdf asdf asdfas</p>
+    <div class='social-icons'>
+        <i class="fas fa-youtube"></i>
+        <i class="fas fa-google-plus"></i>
+        <i class="fas fa-facebook"></i>
+        <i class="fas fa-twitter"></i>
+        <i class="fas fa-instagram"></i>
+    </div>                    
+  </div>
+</section>
+
+
+
+<script
+        src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+        crossorigin="anonymous"></script>
+
+<script>
+$(document).ready(function(){
+  $(".dropdown-icon").click(function(){
+    $("#list").toggleClass("active");
+  });
+});
+</script>
+<script>
+$('.dropdown-icon').click(function(){
+    $("dropdown-icon").toggleClass("rotated");
+});
+</script>
+

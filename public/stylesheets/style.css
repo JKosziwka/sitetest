@@ -768,6 +768,12 @@ margin-top:0;
   color:#000;
   text-transform: uppercase;
 }
+
+.large {
+  font-size:1.3rem;
+  color: #9ACD32;
+  line-height:25px;
+}
 @media(max-width:1200px) {
     #list.active {
 
@@ -775,6 +781,12 @@ margin-top:0;
 
    
   }
+.large{
+  font-size:0.75rem;
+  color: #9ACD32;
+  font-weight:900;
+  line-height: 15px;
+}
   .contact-container {
     margin-left:0;
   }

@@ -284,6 +284,15 @@ header>nav>ul>li:hover a{
   text-align:center;
 }
 
+.row-contact{
+  margin: 20px 10px;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  grid-gap:10px;
+  text-align:center;
+  font-size:1.2rem;
+}
+
 .row-teams{
   margin: 20px 10px;
   display:grid;
@@ -961,6 +970,10 @@ margin-top:0;
   .row-two{
     grid-template-columns:repeat(1,1fr);
   }
+  .row-contact{
+    grid-template-columns:repeat(1,1fr);
+  }
+
   .row-teams {
     grid-template-columns:repeat(1,1fr);
   }

@@ -51,6 +51,7 @@ header{
 }
 header>nav>ul>li{
   display:inline-block;
+  font-size:0.9rem;
 }
 header>nav>ul>li>a{
   text-decoration:none;
@@ -435,6 +436,7 @@ header>nav>ul>li:hover a{
   padding:20px;
 
 }
+
 .row-list {
   margin: 20px 10px;
   display:grid;
@@ -671,6 +673,31 @@ position:relative;
 
 }
 
+.form-button2{
+  outline:0;
+  border:0;
+  padding:10px 25px;
+  min-width:130px;
+  background-color: inherit;
+  /*border:2px solid #9ACD32;*/
+  border:2px solid black;
+  color:black;
+  /*border-radius: 10px;*/
+  text-transform:uppercase;
+  transition: 0.4s;
+  background-image: linear-gradient(45deg, #9ACD32 50%, transparent 50%);
+  background-position: 100% 0;
+  background-size: 300px;
+  font-weight:600;
+  font-size:0.75rem;
+  margin-bottom:10px;
+}
+.form-button2:hover{
+  background-position: 0 100%;
+  color:black;
+
+}
+
 #email-box {
   min-height:40px;
   text-transform: uppercase;
@@ -783,7 +810,7 @@ margin-top:0;
   color: #9ACD32;
   line-height:25px;
 }
-@media(max-width:1200px) {
+@media(max-width:1250px) {
     #list.active {
 
     display:none;
@@ -835,6 +862,10 @@ margin-top:0;
     text-align:center;
     height:55px;
   
+  }
+    header>nav>ul>li{
+    display:block;
+    padding:10px 0;
   }
 
   .coach-notes1{
